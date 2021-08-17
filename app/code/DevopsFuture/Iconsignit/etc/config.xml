@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <iconsignitshipping>
+                <active>1</active>
+                <sallowspecific>0</sallowspecific>
+                <model>DevopsFuture\Iconsignit\Model\Carrier\Shipping</model>
+                <name>Iconsignit Shipping</name>
+                <price>10.00</price>
+                <title>Iconsignit Shipping</title>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+                <handling_type>F</handling_type>
+                <product_attributes_width>ts_dimensions_width</product_attributes_width>
+                <product_attributes_height>ts_dimensions_height</product_attributes_height>
+                <product_attributes_length>ts_dimensions_length</product_attributes_length>
+            </iconsignitshipping>
+        </carriers>
+    </default>
+</config>
